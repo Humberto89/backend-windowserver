@@ -22,5 +22,5 @@ jobs:
           go-version: "1.22.0"
 
       - name: Build
-        run: go build -o backend-windowserver.go -v ./
+        run: go build -o backend-windowserver.exe -v ./
 
